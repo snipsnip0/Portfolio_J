@@ -7,7 +7,7 @@
         display: flex;
         justify-content: center;
 
-        margin-bottom: 4vh;
+        margin-bottom: 5vh;
     }
 
     .container>.socialsPic>.socials {
@@ -21,8 +21,11 @@
         transform: translateX(-18vw);
     }
 
-
     .container>.socialsPic>.socials>a:visited {
+        color: blueviolet;
+    }
+
+    .container>.socialsPic>.socials>a:link {
         color: blueviolet;
     }
 
@@ -72,7 +75,7 @@
         border-radius: 100px;
 
 
-        margin-bottom: 7vh;
+        margin-bottom: 5vh;
     }
 
     .container>.godown {
