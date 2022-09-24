@@ -1,9 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.container>#projectList {
 
-* {
-    box-sizing: border-box;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    scroll-behavior: smooth;
+
+    width: 100%;
+    height: fit-content;
 }
-
 
 .card {
     margin: 10px;
@@ -23,10 +30,10 @@
 .card-body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
     padding: 20px;
-    min-height: 250px;
+    min-height: fit-content;
 }
 
 .card-body>h2 {
