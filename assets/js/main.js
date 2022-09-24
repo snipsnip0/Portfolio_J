@@ -1,6 +1,6 @@
-
 fetch(`https://api.github.com/users/JasminiSantos/repos`)
     .then(result => result.json()).then((result) => {
+        document.getElementById("projectsSum").textContent = Object.keys(result).length + "+";
 
         result.forEach(projeto => {
 

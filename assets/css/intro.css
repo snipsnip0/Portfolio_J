@@ -1,7 +1,7 @@
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
 
-    .container>.socialsPic {
+    .container>.intro>.socialsPic {
         width: 100%;
 
         display: flex;
@@ -10,7 +10,7 @@
         margin-bottom: 5vh;
     }
 
-    .container>.socialsPic>.socials {
+    .container>.intro>.socialsPic>.socials {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -21,70 +21,52 @@
         transform: translateX(-18vw);
     }
 
-    .container>.socialsPic>.socials>a:visited {
+    .container>.intro>.socialsPic>.socials>a:visited {
         color: blueviolet;
     }
 
-    .container>.socialsPic>.socials>a:link {
+    .container>.intro>.socialsPic>.socials>a:link {
         color: blueviolet;
     }
 
-    .container>.socialsPic>img {
+    .container>.intro>.socialsPic>img {
         width: 20vh;
 
         border-radius: 100px;
     }
 
-    .container>.introduction {
+    .container>.intro>.introduction {
         margin-bottom: 5vh;
     }
 
-    .container>.introduction>h1 {
+    .container>.intro>.introduction>h1 {
         font-size: 1.6rem;
         margin-bottom: -1.5vh;
     }
 
-    .container>.introduction>h2 {
+    .container>.intro>.introduction>h2 {
         font-size: 1.15rem;
         font-weight: 500;
         color: rgb(105, 105, 105);
         margin-bottom: 1vh;
     }
 
-    .container>.introduction>p {
+    .container>.intro>.introduction>p {
         color: rgb(105, 105, 105);
     }
 
-    .container>button {
-        width: 100%;
-        height: 6vh;
-
+    .container>.intro>button {
         font-size: 0.85rem;
         font-weight: 600;
-
-        background-color: blueviolet;
-        color: white;
-        border: none;
-
-        padding: 0 29vw;
-
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-
-        border-radius: 100px;
-
-
-        margin-bottom: 5vh;
     }
 
-    .container>.godown {
+    .container>.intro>.godown {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .container>.godown>i {
+    .container>.intro>.godown>i {
         margin-top: 2.2vh;
         font-size: 2rem;
         color: blueviolet;

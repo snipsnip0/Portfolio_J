@@ -8,37 +8,77 @@
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/index.css">
     <link rel="stylesheet" href="assets/css/intro.css">
+    <link rel="stylesheet" href="assets/css/aboutme.css">
 
     <script src="https://kit.fontawesome.com/e31e84bdd6.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <div class="container">
+        <div class="intro">
+            <div class="socialsPic">
+                <div class="socials">
+                    <a href="https://www.linkedin.com/in/jasmini-santos/" target="_blank"><i
+                            class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/JasminiSantos" target="_blank"><i
+                            class="fa-brands fa-github-alt"></i></a>
+                    <a href="https://wa.me/558499676244" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <img src="assets/profile.jpeg" alt="Profile Pic">
 
-        <div class="socialsPic">
-            <div class="socials">
-                <a href="https://www.linkedin.com/in/jasmini-santos/" target="_blank"><i
-                        class="fa-brands fa-linkedin-in"></i></a>
-                <a href="https://github.com/JasminiSantos" target="_blank"><i
-                    class="fa-brands fa-github-alt"></i></a>
-                <a href="https://wa.me/558499676244" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
             </div>
-            <img src="assets/profile.jpeg" alt="Profile Pic">
 
+            <div class="introduction">
+                <h1>Olá, eu sou a Jasmini</h1>
+                <h2>iOS/Swift Developer</h2>
+                <p>Aprendendo e melhorando as minhas capacidades de desenvolvedora mobile, com foco em iOS.</p>
+            </div>
+
+            <button>Contacte-me <i class="fa-solid fa-chevron-right"></i></button>
+
+            <div class="godown">
+                <p>Deslize para baixo!</p>
+                <i class="fa-solid fa-arrow-down-long"></i>
+            </div>
         </div>
 
-        <div class="introduction">
-            <h1>Olá, eu sou a Jasmini</h1>
-            <h2>iOS/Swift Developer</h2>
-            <p>Aprendendo e melhorando as minhas capacidades de desenvolvedora mobile, com foco em iOS.</p>
+        <br><br>
+
+        <div class="aboutme">
+            <h1>Sobre Mim</h1>
+            <label>Introdução</label>
+
+            <img src="assets/landscape.jpeg" alt="Profile landscape">
+
+            <p>Desenvolvedora e estudante, atenta ao detalhe. Trabalho com tecnologias mobile e entrego trabalho de
+                qualidade.</p>
+
+            <div class="timeStats">
+                <div class="stat">
+                    <p>03+</p>
+                    <label>Anos
+                        Experiência</label>
+                </div>
+                <div class="stat">
+                    <p id="projectsSum"></p>
+                    <label>Projetos
+                        Completados</label>
+                </div>
+                <div class="stat">
+                    <p>02+</p>
+                    <label>Clientes
+                        Satisfeitos</label>
+                </div>
+            </div>
+
+            <button>Curriculum Vitae <i class="fa-solid fa-download"></i></button>
         </div>
 
-        <button>Contacte-me <i class="fa-solid fa-chevron-right"></i></button>
 
-        <div class="godown">
-            <p>Deslize para baixo!</p>
-            <i class="fa-solid fa-arrow-down-long"></i>
-        </div>
+        <div style="display: none;" id="projectList"></div>
+
+
+        <script src="assets/js/main.js"></script>
     </div>
 </body>
 
