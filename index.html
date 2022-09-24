@@ -9,12 +9,14 @@
     <link rel="stylesheet" href="assets/css/index.css">
     <link rel="stylesheet" href="assets/css/intro.css">
     <link rel="stylesheet" href="assets/css/aboutme.css">
+    <link rel="stylesheet" href="assets/css/timeline.css">
 
     <script src="https://kit.fontawesome.com/e31e84bdd6.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <div class="container">
+        
         <div class="intro">
             <div class="socialsPic">
                 <div class="socials">
@@ -78,11 +80,76 @@
             </a>
         </div>
 
+        <br><br>
+
+        <div class="timelineInfo">
+            <h1>Qualificações</h1>
+            <label>A minha jornada pessoal</label>
+
+            <div class="timelineButtons">
+                <div data-timeline="career" onclick="timeLineChange(this)" class="timelineButton current">
+                    <h3><i class="fa-solid fa-briefcase"></i>Carreira</h3>
+                </div>
+                <hr>
+                <div data-timeline="school" onclick="timeLineChange(this)" class="timelineButton">
+                    <h3><i class="fa-solid fa-graduation-cap"></i>Escolar</h3>
+                </div>
+            </div>
+
+            <div class="timelines">
+                <div data-timeline="career" class="timeline">
+
+                    <div class="lineMiddle">
+                        <div class="dot">
+                            <h4>Estagiária de Tecnologia</h4>
+                            <p>IBM</p>
+                            <label>jun. 2022 – atual</label>
+                        </div>
+                        <div class="dot">
+                            <h4>Estagiária de Desenvolvimento</h4>
+                            <p>CI&T</p>
+                            <label>fev. 2022 – jun. 2022</label>
+                        </div>
+                        <div class="dot">
+                            <h4>Voluntariado</h4>
+                            <label>jun. 2020 – ago. 2021</label>
+                        </div>
+                        <div class="dot">
+                            <h4>Bolsista PIBIC</h4>
+                            <p>IFRN Campus Parnamirim</p>
+                            <label>mai. 2019 – dez. 2019</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-timeline="school" class="timeline">
+
+                    <div class="lineMiddle">
+                        <div class="dot">
+                            <h4>Bacharelado em Ciência da Computação</h4>
+                            <p>PUCPR</p>
+                            <label>2021 – 2024</label>
+                        </div>
+                        <div class="dot">
+                            <h4>Técnico Integrado em Mecatrônica</h4>
+                            <p>IFRN</p>
+                            <label>2016 – 2019</label>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <br><br><br>
 
         <div style="display: none;" id="projectList"></div>
 
 
         <script src="assets/js/main.js"></script>
+        <script src="assets/js/changeTimeline.js"></script>
     </div>
 </body>
 

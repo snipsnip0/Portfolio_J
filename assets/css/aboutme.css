@@ -15,25 +15,10 @@
     }
 
     .container>.aboutme>p {
-        text-align: center;
-
-        color: rgb(105, 105, 105);
-    }
-
-    .container>.aboutme>p {
         margin-top: 7vh;
         text-align: center;
 
         color: rgb(105, 105, 105);
-    }
-
-    .container>.aboutme label {
-        text-align: center;
-        font-size: medium;
-
-        color: rgb(105, 105, 105);
-
-        margin-bottom: 4vh;
     }
 
     .container>.aboutme img {
