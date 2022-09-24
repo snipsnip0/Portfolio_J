@@ -71,14 +71,18 @@
         font-size: 0.8rem;
     }
 
-    .container>.aboutme>button {
+    .container>.aboutme>a:link {
+        text-decoration: none;
+    }
+
+    .container>.aboutme>a>button {
         font-size: 0.85rem;
         font-weight: 600;
 
         padding: 0 24vw;
     }
 
-    .container>.aboutme>button>i {
+    .container>.aboutme>a>button>i {
         font-size: 1rem;
     }
 }
