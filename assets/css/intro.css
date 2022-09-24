@@ -1,6 +1,10 @@
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
 
+    .container>.intro {
+        margin-bottom: 1vh;
+    }
+
     .container>.intro>.socialsPic {
         width: 100%;
 
@@ -64,8 +68,6 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-
-        margin-bottom: 1vh;
     }
 
     .container>.intro>.godown>i {
