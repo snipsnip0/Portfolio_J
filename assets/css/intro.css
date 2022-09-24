@@ -21,6 +21,11 @@
         transform: translateX(-18vw);
     }
 
+
+    .container>.socialsPic>.socials>a:visited {
+        color: blueviolet;
+    }
+
     .container>.socialsPic>img {
         width: 20vh;
 
